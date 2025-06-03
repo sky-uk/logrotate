@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.22.0
 
 ENV CRON_SCHEDULE='0 * * * *' \
     LOGROTATE_SIZE='100M' \
